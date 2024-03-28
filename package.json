@@ -1,0 +1,23 @@
+{
+  "name": "a",
+  "version": "1.0.0",
+  "description": "Description goes here",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbd/tbd.git"
+  },
+  "keywords": [
+    "Profile",
+    "goldhand"
+  ],
+  "author": "Will Farley <jdfolino@icloud.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tbd/tbd/issues"
+  },
+  "homepage": "https://github.com/tbd/tbd#readme"
+}
