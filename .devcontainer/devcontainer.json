@@ -1,21 +1,18 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/alpine
+// README at: https://github.com/devcontainers/templates/tree/main/src/javascript-node
 {
-	"name": "Node JS",
+	"name": "Node.js",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "ghcr.io/devcontainers/features/node:1",
-	"features": {
-	},
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-18-bookworm",
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"rvest.vs-code-prettier-eslint",
+				"dbaeumer.vscode-eslint",
 				"ms-vsliveshare.vsliveshare",
 				"be5invis.vscode-icontheme-nomo-dark"
 			]
 		}
-	},
-
+	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
@@ -24,7 +21,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": ". ${NVM_DIR}/nvm.sh && nvm install --lts"
+	// "postCreateCommand": "yarn install",
 
 	// Configure tool-specific properties.
 	// "customizations": {},
