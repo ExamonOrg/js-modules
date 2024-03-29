@@ -4,7 +4,7 @@ const parser = require("@babel/parser");
 const jsFilesExtensions = ['js']
 
 function getJavaScriptFiles(dir) {
-    let results = [];
+        let results = [];
     const list = fs.readdirSync(dir);
   
     list.forEach(function (file) {
